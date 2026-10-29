@@ -1,0 +1,28 @@
+Architectures: amd64 arm64
+Codename: stable
+Components: main
+Date: Tue, 27 Oct 2026 23:01:31 +0000
+Description: Emailcipator agent (stable)
+Label: Emailcipator
+Origin: Emailcipator
+Suite: stable
+MD5Sum:
+ 04259ed1251389fe74a5b7330174b78e             1808 main/binary-amd64/Packages
+ 5ca01caae04d90183c911a45e453ab5a              815 main/binary-amd64/Packages.gz
+ b4bf17136295bcc089371c0ff3618b8f             1808 main/binary-arm64/Packages
+ 2e756b5adf3044d749acbacc68f823db              818 main/binary-arm64/Packages.gz
+SHA1:
+ c3f246f9a091f7198e72dd0364f617398813bc38             1808 main/binary-amd64/Packages
+ 5c823c2dcc4a94baac77f0cdae7507c180e3e43c              815 main/binary-amd64/Packages.gz
+ ab3c253afb469955ed8920dcf2c017272f8b1a41             1808 main/binary-arm64/Packages
+ 5bc67319e5f7a079148ccd91d0521425f2dddfbe              818 main/binary-arm64/Packages.gz
+SHA256:
+ 7bebcd22f8f5e9f14438467a4d12a8aa8209c5565d52bf5f83e76b1f73ce0fa7             1808 main/binary-amd64/Packages
+ e93f2abe4e9be313d7021393b8fb55e664ed0a2766fc3c14c8a1f5a9184fe1bb              815 main/binary-amd64/Packages.gz
+ c45543eaa1d3fa8a94d7766481a2132496f0a21df5157e321005b0c12e072bc2             1808 main/binary-arm64/Packages
+ 928dcbc5a4f26cf6bdb583caa0abaff2bef77842750c2bffba8b5342bc5e702e              818 main/binary-arm64/Packages.gz
+SHA512:
+ 369b73bcd7684c2b72d161326102af54201c0ffa362372756e4fc34274995ac9cb999acba145f0c910bdd409a2ca0e92e11dc08b7af1ea344ca64729f3c93ab8             1808 main/binary-amd64/Packages
+ 66f6a0266f6518830facc48dcf29a4aff7bc9bf7898f9fa53d7db27ab4435678d6524b95f21caa7bb33bba2ae663cdc8bc43f17499a0131f1beed3e88e1c43cf              815 main/binary-amd64/Packages.gz
+ fa6e04dfdd4f3bd87265a7a47a31adb0365676b22b4e5686d42ea4a1598fe60ea510d8a5c2800c46071ddb41c59c6647479a2f3e29f6020e92452655abb68ed9             1808 main/binary-arm64/Packages
+ d7bf5ce1e5136b5c9966a43e2c3628ebd8b2fb7d378dd98062bf80bfbef148302c3faa2468bbe3091b74ef07e914579c89f6b536902a25d288b846c2d453fce8              818 main/binary-arm64/Packages.gz

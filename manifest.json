@@ -1,0 +1,212 @@
+{
+  "schema": 1,
+  "generated_at": "2026-10-29T22:26:42Z",
+  "channels": {
+    "edge": {
+      "version": "0.1.2-105-gf4951fc",
+      "published_at": "2026-10-29T22:26:42Z",
+      "notes_url": "https://github.com/rsipka/emailcipator/releases/tag/edge"
+    },
+    "stable": {
+      "version": "0.1.2",
+      "published_at": "2026-10-27T23:01:32Z",
+      "notes_url": "https://github.com/rsipka/emailcipator/releases/tag/v0.1.2"
+    }
+  },
+  "history": {
+    "edge": [
+      {
+        "version": "0.1.2-105-gf4951fc",
+        "commit": "f4951fcd70d99583bb578329207d38bc157f9efb",
+        "published_at": "2026-10-29T22:26:42Z",
+        "changes": [
+          {
+            "title": "Mailboxes: fix sorting in the masked view",
+            "pr": 228,
+            "commit": "f4951fcd70d99583bb578329207d38bc157f9efb",
+            "url": "https://github.com/rsipka/emailcipator/pull/228"
+          },
+          {
+            "title": "Accept ADR 0078 (customer follow-ups)",
+            "pr": 227,
+            "commit": "33ac6de1c7a0aa0554e6c14a15da6b3283a17df5",
+            "url": "https://github.com/rsipka/emailcipator/pull/227"
+          }
+        ]
+      },
+      {
+        "version": "0.1.2-101-g5369cdc",
+        "commit": "5369cdcc1485fccd54f967d60f1d12d7c31580d6",
+        "published_at": "2026-10-29T19:31:31Z",
+        "changes": [
+          {
+            "title": "Customer alert rules",
+            "pr": 226,
+            "commit": "5369cdcc1485fccd54f967d60f1d12d7c31580d6",
+            "url": "https://github.com/rsipka/emailcipator/pull/226"
+          }
+        ]
+      },
+      {
+        "version": "0.1.2-99-ga3b8105",
+        "commit": "a3b810571272d6dca1f6e6a7f482d51516e059fb",
+        "published_at": "2026-10-29T16:31:45Z",
+        "changes": [
+          {
+            "title": "MCP for customer accounts",
+            "pr": 225,
+            "commit": "a3b810571272d6dca1f6e6a7f482d51516e059fb",
+            "url": "https://github.com/rsipka/emailcipator/pull/225"
+          }
+        ]
+      },
+      {
+        "version": "0.1.2-97-g4125a7c",
+        "commit": "4125a7cc3dbba5d142f359e1ee2d7c3744b403e6",
+        "published_at": "2026-10-29T16:20:59Z",
+        "changes": [
+          {
+            "title": "Customer accounts: their domains read-only; resellers move domains",
+            "pr": 224,
+            "commit": "4125a7cc3dbba5d142f359e1ee2d7c3744b403e6",
+            "url": "https://github.com/rsipka/emailcipator/pull/224"
+          },
+          {
+            "title": "ADR 0077: accepted",
+            "pr": 223,
+            "commit": "c0c110cd5fa62aa61b9d30a5b30018334f99d3b9",
+            "url": "https://github.com/rsipka/emailcipator/pull/223"
+          }
+        ]
+      },
+      {
+        "version": "0.1.2-93-ge50846d",
+        "commit": "e50846d0eb209a3f9e2255b163ad63f92092959d",
+        "published_at": "2026-10-29T16:01:56Z",
+        "changes": [
+          {
+            "title": "Scheduled reports by e-mail",
+            "pr": 222,
+            "commit": "e50846d0eb209a3f9e2255b163ad63f92092959d",
+            "url": "https://github.com/rsipka/emailcipator/pull/222"
+          }
+        ]
+      },
+      {
+        "version": "0.1.2-91-g5432bc2",
+        "commit": "5432bc2f486e394e6186bf6c6e744a39f00b92d2",
+        "published_at": "2026-10-29T15:28:02Z",
+        "changes": [
+          {
+            "title": "Page width: the column by default, a header button for full width",
+            "pr": 221,
+            "commit": "5432bc2f486e394e6186bf6c6e744a39f00b92d2",
+            "url": "https://github.com/rsipka/emailcipator/pull/221"
+          }
+        ]
+      },
+      {
+        "version": "0.1.2-89-gaa5f492",
+        "commit": "aa5f4920923d8b2d6bc422d1332cbc05da7dff2a",
+        "published_at": "2026-10-29T15:09:03Z",
+        "changes": [
+          {
+            "title": "Grid pages use the full width of wide screens",
+            "pr": 220,
+            "commit": "aa5f4920923d8b2d6bc422d1332cbc05da7dff2a",
+            "url": "https://github.com/rsipka/emailcipator/pull/220"
+          },
+          {
+            "title": "ADR 0076: accepted",
+            "pr": 219,
+            "commit": "9c9a387e7d206b1338c12b6afe956d53e2196ac8",
+            "url": "https://github.com/rsipka/emailcipator/pull/219"
+          }
+        ]
+      },
+      {
+        "version": "0.1.2-85-g0c0a02c",
+        "commit": "0c0a02c6b57a70c94c902212ef5c179dc8871682",
+        "published_at": "2026-10-29T14:54:15Z",
+        "changes": [
+          {
+            "title": "Website users from the panel; why a customer sees a message",
+            "pr": 218,
+            "commit": "0c0a02c6b57a70c94c902212ef5c179dc8871682",
+            "url": "https://github.com/rsipka/emailcipator/pull/218"
+          },
+          {
+            "title": "ADR 0075: accepted",
+            "pr": 217,
+            "commit": "7d1ef9401917faa84a1f65ccde12bc07a366c1d7",
+            "url": "https://github.com/rsipka/emailcipator/pull/217"
+          }
+        ]
+      },
+      {
+        "version": "0.1.2-81-g7b6da2f",
+        "commit": "7b6da2f77e2d2a31461d8b4445a1c5c1fa2c399c",
+        "published_at": "2026-10-29T13:15:16Z",
+        "changes": [
+          {
+            "title": "Sender side by client network or local system user",
+            "pr": 216,
+            "commit": "7b6da2f77e2d2a31461d8b4445a1c5c1fa2c399c",
+            "url": "https://github.com/rsipka/emailcipator/pull/216"
+          },
+          {
+            "title": "ADR 0074: accepted",
+            "pr": 215,
+            "commit": "6a54d9494d59d6220b2c1978e8db2b6f60ca5d68",
+            "url": "https://github.com/rsipka/emailcipator/pull/215"
+          }
+        ]
+      },
+      {
+        "version": "0.1.2-77-gdd5ad1f",
+        "commit": "dd5ad1fbcbf55439d01b6ffdfbf2df891c887af8",
+        "published_at": "2026-10-29T12:22:07Z",
+        "changes": [
+          {
+            "title": "Global admins may switch to the masked view",
+            "pr": 214,
+            "commit": "dd5ad1fbcbf55439d01b6ffdfbf2df891c887af8",
+            "url": "https://github.com/rsipka/emailcipator/pull/214"
+          }
+        ]
+      },
+      {
+        "version": "0.1.2-75-g3d623c9",
+        "commit": "3d623c917bd64c687801cc2c326d344d5e53f549",
+        "published_at": "2026-10-29T11:52:19Z",
+        "changes": [
+          {
+            "title": "Settings: column filters on Customers, Users, Domains and Audit",
+            "pr": 213,
+            "commit": "3d623c917bd64c687801cc2c326d344d5e53f549",
+            "url": "https://github.com/rsipka/emailcipator/pull/213"
+          },
+          {
+            "title": "ADR 0073: accepted",
+            "pr": 212,
+            "commit": "4fa1ece0ee2356502260c7f5edba084a93eca457",
+            "url": "https://github.com/rsipka/emailcipator/pull/212"
+          }
+        ]
+      },
+      {
+        "version": "0.1.2-71-g13e68b0",
+        "commit": "13e68b0c7585caa886576936418f220051ea75be",
+        "published_at": "2026-10-29T11:07:58Z",
+        "changes": [
+          {
+            "title": "Alerts delivery log: say what each notification was about",
+            "pr": 210,
+            "commit": "13e68b0c7585caa886576936418f220051ea75be",
+            "url": "https://github.com/rsipka/emailcipator/pull/210"
+          }
+        ]
+      }
+    ]
+  }
+}

@@ -1,0 +1,5 @@
+Types: deb
+URIs: https://rsipka.github.io/emailcipator-releases/apt
+Suites: stable
+Components: main
+Signed-By: /etc/apt/keyrings/emailcipator.gpg
