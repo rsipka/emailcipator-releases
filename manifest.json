@@ -1,0 +1,807 @@
+{
+  "schema": 1,
+  "generated_at": "2026-11-07T14:37:00Z",
+  "channels": {
+    "edge": {
+      "version": "0.1.2-338-g1eb6661",
+      "published_at": "2026-11-07T14:37:00Z",
+      "notes_url": "https://github.com/rsipka/emailcipator/releases/tag/edge"
+    },
+    "stable": {
+      "version": "0.1.2",
+      "published_at": "2026-10-27T23:01:32Z",
+      "notes_url": "https://github.com/rsipka/emailcipator/releases/tag/v0.1.2"
+    }
+  },
+  "history": {
+    "edge": [
+      {
+        "version": "0.1.2-338-g1eb6661",
+        "commit": "1eb6661f0cc8789d3246e7faf970abbe6951bc0f",
+        "published_at": "2026-11-07T14:37:00Z",
+        "changes": [
+          {
+            "title": "Fix masked VERP addresses and silently unfiltered stats",
+            "pr": 333,
+            "commit": "1eb6661f0cc8789d3246e7faf970abbe6951bc0f",
+            "url": "https://github.com/rsipka/emailcipator/pull/333"
+          },
+          {
+            "title": "Replay pattern pack drafts against journal fixtures",
+            "pr": 332,
+            "commit": "83b8aa4b08ee00f4f86862a14f432fea9c9a2c8f",
+            "url": "https://github.com/rsipka/emailcipator/pull/332"
+          }
+        ]
+      },
+      {
+        "version": "0.1.2-334-g62f8e32",
+        "commit": "62f8e32e54ccceff9456c655e4c2bcfe53602522",
+        "published_at": "2026-11-07T12:25:33Z",
+        "changes": [
+          {
+            "title": "Set data retention in the application",
+            "pr": 327,
+            "commit": "62f8e32e54ccceff9456c655e4c2bcfe53602522",
+            "url": "https://github.com/rsipka/emailcipator/pull/327"
+          }
+        ]
+      },
+      {
+        "version": "0.1.2-330-gcd55f05",
+        "commit": "cd55f0554a7b03ab996ccc991eb6a8804b405575",
+        "published_at": "2026-11-07T12:03:01Z",
+        "changes": [
+          {
+            "title": "Build the server image on pull requests",
+            "pr": 330,
+            "commit": "cd55f0554a7b03ab996ccc991eb6a8804b405575",
+            "url": "https://github.com/rsipka/emailcipator/pull/330"
+          }
+        ]
+      },
+      {
+        "version": "0.1.2-328-g22373f8",
+        "commit": "22373f88820c2e5dc0a7a633600388060f149af6",
+        "published_at": "2026-11-07T12:00:07Z",
+        "changes": [
+          {
+            "title": "Take periodic database backups",
+            "pr": 329,
+            "commit": "22373f88820c2e5dc0a7a633600388060f149af6",
+            "url": "https://github.com/rsipka/emailcipator/pull/329"
+          },
+          {
+            "title": "Copy the schema package into the server image build",
+            "pr": 328,
+            "commit": "e6e5bfae1fb47b7416032e538eb6c53956f870e7",
+            "url": "https://github.com/rsipka/emailcipator/pull/328"
+          }
+        ]
+      },
+      {
+        "version": "0.1.2-323-g28525fa",
+        "commit": "28525fa8837ec6a119f85984109ccec1fcd6ac40",
+        "published_at": "2026-11-07T10:50:32Z",
+        "changes": [
+          {
+            "title": "Widen the trace export's smtpd session window",
+            "pr": 326,
+            "commit": "28525fa8837ec6a119f85984109ccec1fcd6ac40",
+            "url": "https://github.com/rsipka/emailcipator/pull/326"
+          }
+        ]
+      },
+      {
+        "version": "0.1.2-321-gdfa2f22",
+        "commit": "dfa2f22e5e5f7ec8aa0ab6a9a228b9832edf6da4",
+        "published_at": "2026-11-07T10:05:09Z",
+        "changes": [
+          {
+            "title": "Validate parser pattern packs offline",
+            "pr": 325,
+            "commit": "dfa2f22e5e5f7ec8aa0ab6a9a228b9832edf6da4",
+            "url": "https://github.com/rsipka/emailcipator/pull/325"
+          }
+        ]
+      },
+      {
+        "version": "0.1.2-319-g65cbb4f",
+        "commit": "65cbb4f09a4e4e364536d6eaffe5859e632fd249",
+        "published_at": "2026-11-07T07:28:47Z",
+        "changes": [
+          {
+            "title": "Give clients that left before sending a message their own disposition",
+            "pr": 324,
+            "commit": "65cbb4f09a4e4e364536d6eaffe5859e632fd249",
+            "url": "https://github.com/rsipka/emailcipator/pull/324"
+          },
+          {
+            "title": "Keep a message whole when the client is slow to send DATA",
+            "pr": 323,
+            "commit": "f540a3f667ee29097cc00a1661a7bdfe1f6f6821",
+            "url": "https://github.com/rsipka/emailcipator/pull/323"
+          }
+        ]
+      },
+      {
+        "version": "0.1.2-314-g4143910",
+        "commit": "41439104ab598b0c512309826865c4ae92b84f7b",
+        "published_at": "2026-11-07T01:07:02Z",
+        "changes": [
+          {
+            "title": "Alert when stored mail is split into two rows",
+            "pr": 321,
+            "commit": "41439104ab598b0c512309826865c4ae92b84f7b",
+            "url": "https://github.com/rsipka/emailcipator/pull/321"
+          },
+          {
+            "title": "Prove Rspamd's undef Message-ID with a lab scenario and real pushes",
+            "pr": 322,
+            "commit": "be25ba74cd33bdad7ae9973b05a71c0f3b67af38",
+            "url": "https://github.com/rsipka/emailcipator/pull/322"
+          }
+        ]
+      },
+      {
+        "version": "0.1.2-310-gd3f99d7",
+        "commit": "d3f99d7602bfbee7143a958b3d28aa1cc4e459d6",
+        "published_at": "2026-11-07T00:43:15Z",
+        "changes": [
+          {
+            "title": "Keep a message whole whatever Message-ID Rspamd read",
+            "pr": 319,
+            "commit": "d3f99d7602bfbee7143a958b3d28aa1cc4e459d6",
+            "url": "https://github.com/rsipka/emailcipator/pull/319"
+          },
+          {
+            "title": "ci: move budget diagnostics to weekly and manual runs",
+            "pr": 320,
+            "commit": "96d252334b8b654524d406b291c446e644afce2a",
+            "url": "https://github.com/rsipka/emailcipator/pull/320"
+          }
+        ]
+      },
+      {
+        "version": "0.1.2-304-gd932f6a",
+        "commit": "d932f6af2f394f5487a373934b08cbb5bc740ccd",
+        "published_at": "2026-11-07T00:13:50Z",
+        "changes": [
+          {
+            "title": "Measure ingest revision overhead and server handover costs",
+            "pr": 318,
+            "commit": "d932f6af2f394f5487a373934b08cbb5bc740ccd",
+            "url": "https://github.com/rsipka/emailcipator/pull/318"
+          }
+        ]
+      },
+      {
+        "version": "0.1.2-301-gf28b0de",
+        "commit": "f28b0deac0fc7fe7cd4a5fdad24d8cc14ba03bb7",
+        "published_at": "2026-11-06T23:45:10Z",
+        "changes": [
+          {
+            "title": "Run the fixture lab under Docker Engine",
+            "pr": 316,
+            "commit": "f28b0deac0fc7fe7cd4a5fdad24d8cc14ba03bb7",
+            "url": "https://github.com/rsipka/emailcipator/pull/316"
+          }
+        ]
+      },
+      {
+        "version": "0.1.2-296-g5a4b503",
+        "commit": "5a4b5037cc50dda3264f3d103ba8e1a6dd8563a7",
+        "published_at": "2026-11-06T23:10:44Z",
+        "changes": [
+          {
+            "title": "Fix stale correlator state across ingest servers",
+            "pr": 317,
+            "commit": "5a4b5037cc50dda3264f3d103ba8e1a6dd8563a7",
+            "url": "https://github.com/rsipka/emailcipator/pull/317"
+          },
+          {
+            "title": "Decide the stack order and where the fixture lab runs in CI",
+            "pr": 315,
+            "commit": "c14b92475f33e3a78b28639293991a9ae5f0ee43",
+            "url": "https://github.com/rsipka/emailcipator/pull/315"
+          }
+        ]
+      },
+      {
+        "version": "0.1.2-292-g1a7ec31",
+        "commit": "1a7ec3134e62e54b59f4c241ecb7641449d0a8e4",
+        "published_at": "2026-11-06T22:38:29Z",
+        "changes": [
+          {
+            "title": "Read amavis's verbose template and its DKIM signing",
+            "pr": 313,
+            "commit": "1a7ec3134e62e54b59f4c241ecb7641449d0a8e4",
+            "url": "https://github.com/rsipka/emailcipator/pull/313"
+          },
+          {
+            "title": "Record optimized filtered load results at 8 and 12 queries/s",
+            "pr": 314,
+            "commit": "742b6f87216a6ba7dc1f81cd68fdb2ee332ca18d",
+            "url": "https://github.com/rsipka/emailcipator/pull/314"
+          }
+        ]
+      },
+      {
+        "version": "0.1.2-288-g3731c93",
+        "commit": "3731c9345d03cb1f2896414f80e75399a9f3788f",
+        "published_at": "2026-11-06T22:11:22Z",
+        "changes": [
+          {
+            "title": "Parse failed Sieve programs in the Dovecot module",
+            "pr": 312,
+            "commit": "3731c9345d03cb1f2896414f80e75399a9f3788f",
+            "url": "https://github.com/rsipka/emailcipator/pull/312"
+          }
+        ]
+      },
+      {
+        "version": "0.1.2-286-g028a94a",
+        "commit": "028a94aa83e2864639e17a652f2577f0a7e6b284",
+        "published_at": "2026-11-06T22:01:16Z",
+        "changes": [
+          {
+            "title": "Count customer exact recipients from scoped delivery keys",
+            "pr": 310,
+            "commit": "028a94aa83e2864639e17a652f2577f0a7e6b284",
+            "url": "https://github.com/rsipka/emailcipator/pull/310"
+          }
+        ]
+      },
+      {
+        "version": "0.1.2-284-g5bfff00",
+        "commit": "5bfff00223ca8ddd749b1a55fbc6e30573676a97",
+        "published_at": "2026-11-06T11:12:14Z",
+        "changes": [
+          {
+            "title": "ci: shorter artifact retention (release builds 1 day, Playwright reports 3 days) (#311)",
+            "commit": "5bfff00223ca8ddd749b1a55fbc6e30573676a97",
+            "url": "https://github.com/rsipka/emailcipator/commit/5bfff00223ca8ddd749b1a55fbc6e30573676a97"
+          }
+        ]
+      },
+      {
+        "version": "0.1.2-283-g27ca9cb",
+        "commit": "27ca9cb774fea97350599178bbdd5c552d4158b8",
+        "published_at": "2026-11-05T23:11:25Z",
+        "changes": [
+          {
+            "title": "Select message page keys before expanding summaries",
+            "pr": 309,
+            "commit": "27ca9cb774fea97350599178bbdd5c552d4158b8",
+            "url": "https://github.com/rsipka/emailcipator/pull/309"
+          }
+        ]
+      },
+      {
+        "version": "0.1.2-281-g918ea3c",
+        "commit": "918ea3c7b2cb65d411aa0e8512df4bf51fbf29bf",
+        "published_at": "2026-11-05T08:31:58Z",
+        "changes": [
+          {
+            "title": "Profile exact-recipient page and count costs",
+            "pr": 308,
+            "commit": "918ea3c7b2cb65d411aa0e8512df4bf51fbf29bf",
+            "url": "https://github.com/rsipka/emailcipator/pull/308"
+          }
+        ]
+      },
+      {
+        "version": "0.1.2-279-ga971518",
+        "commit": "a97151801d1d3c59038fb7d9758f8f83d973ad0f",
+        "published_at": "2026-11-04T22:41:27Z",
+        "changes": [
+          {
+            "title": "Fix the flaky browser tests: mid-fade axe, leftover columns, tight timeout",
+            "pr": 307,
+            "commit": "a97151801d1d3c59038fb7d9758f8f83d973ad0f",
+            "url": "https://github.com/rsipka/emailcipator/pull/307"
+          }
+        ]
+      },
+      {
+        "version": "0.1.2-277-gf33e1a0",
+        "commit": "f33e1a04566f724a7e31480b3635b073c26c37a5",
+        "published_at": "2026-11-04T21:56:31Z",
+        "changes": [
+          {
+            "title": "Measure sustained filtered query load during ingest",
+            "pr": 306,
+            "commit": "f33e1a04566f724a7e31480b3635b073c26c37a5",
+            "url": "https://github.com/rsipka/emailcipator/pull/306"
+          }
+        ]
+      },
+      {
+        "version": "0.1.2-275-g5b06970",
+        "commit": "5b0697080a6f355ab6611d255c06496e59d72934",
+        "published_at": "2026-11-04T21:39:44Z",
+        "changes": [
+          {
+            "title": "Retry the pull request lookup before calling a push direct",
+            "pr": 305,
+            "commit": "5b0697080a6f355ab6611d255c06496e59d72934",
+            "url": "https://github.com/rsipka/emailcipator/pull/305"
+          }
+        ]
+      },
+      {
+        "version": "0.1.2-273-ga6bc076",
+        "commit": "a6bc076c07e8c1b9dda656ec8f6f7b2024782cd4",
+        "published_at": "2026-11-04T21:10:36Z",
+        "changes": [
+          {
+            "title": "Recheck ingest performance after durable correlator state",
+            "pr": 303,
+            "commit": "a6bc076c07e8c1b9dda656ec8f6f7b2024782cd4",
+            "url": "https://github.com/rsipka/emailcipator/pull/303"
+          },
+          {
+            "title": "Wait for the Pages deploy of the package repository, and retry it",
+            "pr": 304,
+            "commit": "ee8f9ae3681e250694e475fa89b2803075080758",
+            "url": "https://github.com/rsipka/emailcipator/pull/304"
+          }
+        ]
+      },
+      {
+        "version": "0.1.2-269-g27a2e9d",
+        "commit": "27a2e9dce225908a90603979e8572effe54b85d2",
+        "published_at": "2026-11-04T18:37:58Z",
+        "changes": [
+          {
+            "title": "Parse reload and clamd lines; name hosts on Lines not understood",
+            "pr": 302,
+            "commit": "27a2e9dce225908a90603979e8572effe54b85d2",
+            "url": "https://github.com/rsipka/emailcipator/pull/302"
+          }
+        ]
+      },
+      {
+        "version": "0.1.2-266-g056c375",
+        "commit": "056c37535c694c67509218f9163f0bb4cae126f3",
+        "published_at": "2026-11-04T17:26:37Z",
+        "changes": [
+          {
+            "title": "Rspamd flags to approve and rate-limit symbols (ADR 0094)",
+            "pr": 301,
+            "commit": "056c37535c694c67509218f9163f0bb4cae126f3",
+            "url": "https://github.com/rsipka/emailcipator/pull/301"
+          },
+          {
+            "title": "Add a runbook for training Rspamd from IMAP moves",
+            "pr": 300,
+            "commit": "084613dc7fe91ac991393fbfedafae16d93aef48",
+            "url": "https://github.com/rsipka/emailcipator/pull/300"
+          },
+          {
+            "title": "Accept ADR 0094: approved Rspamd flags and a rate-limit snippet",
+            "pr": 299,
+            "commit": "f932938220a06df00b3d89c93900ec90b26a2667",
+            "url": "https://github.com/rsipka/emailcipator/pull/299"
+          },
+          {
+            "title": "ADR 0094 (Proposed): approved Rspamd flags and a rate-limit snippet",
+            "pr": 298,
+            "commit": "8938b033c6316162ab12767ee1509f2c969cb913",
+            "url": "https://github.com/rsipka/emailcipator/pull/298"
+          }
+        ]
+      },
+      {
+        "version": "0.1.2-257-gc58f6e1",
+        "commit": "c58f6e136f92988517fd08380eaae0db675b2273",
+        "published_at": "2026-11-04T15:28:14Z",
+        "changes": [
+          {
+            "title": "Persist all correlator state with each batch (ADR 0093)",
+            "pr": 297,
+            "commit": "c58f6e136f92988517fd08380eaae0db675b2273",
+            "url": "https://github.com/rsipka/emailcipator/pull/297"
+          },
+          {
+            "title": "Decide the ordering and recovery limits (ADR 0093)",
+            "pr": 296,
+            "commit": "40f158f917d2cad3c64b36c6cfc015ddde095e97",
+            "url": "https://github.com/rsipka/emailcipator/pull/296"
+          }
+        ]
+      },
+      {
+        "version": "0.1.2-251-g1af635d",
+        "commit": "1af635dcf404c4d8a0ab5690ad15a84548ee6ef9",
+        "published_at": "2026-11-04T13:02:23Z",
+        "changes": [
+          {
+            "title": "Test arrival order and recovery generally, and fix what it found",
+            "pr": 295,
+            "commit": "1af635dcf404c4d8a0ab5690ad15a84548ee6ef9",
+            "url": "https://github.com/rsipka/emailcipator/pull/295"
+          }
+        ]
+      },
+      {
+        "version": "0.1.2-249-ga87779f",
+        "commit": "a87779f54567f4bafcc6355c0b06c72a38c4a26b",
+        "published_at": "2026-11-04T12:02:16Z",
+        "changes": [
+          {
+            "title": "Warn in the message detail when outbound mail was not signed",
+            "pr": 294,
+            "commit": "a87779f54567f4bafcc6355c0b06c72a38c4a26b",
+            "url": "https://github.com/rsipka/emailcipator/pull/294"
+          }
+        ]
+      },
+      {
+        "version": "0.1.2-247-ge2d1c1d",
+        "commit": "e2d1c1df62b3589fed1ffae0da99b8c82765e8ed",
+        "published_at": "2026-11-04T11:52:15Z",
+        "changes": [
+          {
+            "title": "Make outbound_unsigned and dkim_unsigned able to fire",
+            "pr": 293,
+            "commit": "e2d1c1df62b3589fed1ffae0da99b8c82765e8ed",
+            "url": "https://github.com/rsipka/emailcipator/pull/293"
+          }
+        ]
+      },
+      {
+        "version": "0.1.2-245-g095a3d5",
+        "commit": "095a3d5df46f042dd487c7d2d45e3b7bd77e40c0",
+        "published_at": "2026-11-04T09:09:55Z",
+        "changes": [
+          {
+            "title": "Authentication results from OpenDKIM, OpenDMARC and policyd-spf (ADR 0092)",
+            "pr": 292,
+            "commit": "095a3d5df46f042dd487c7d2d45e3b7bd77e40c0",
+            "url": "https://github.com/rsipka/emailcipator/pull/292"
+          },
+          {
+            "title": "ADR 0092: auth results from OpenDKIM, OpenDMARC and policyd-spf",
+            "pr": 291,
+            "commit": "c35bd74304206f037667bd1e432ea1b01a82a1fe",
+            "url": "https://github.com/rsipka/emailcipator/pull/291"
+          }
+        ]
+      },
+      {
+        "version": "0.1.2-240-g58cbfee",
+        "commit": "58cbfee8286e90f4387cef240fbdbead8db03039",
+        "published_at": "2026-11-04T08:40:56Z",
+        "changes": [
+          {
+            "title": "docker-mailserver: lab, fixtures, parser forms and install guide",
+            "pr": 290,
+            "commit": "58cbfee8286e90f4387cef240fbdbead8db03039",
+            "url": "https://github.com/rsipka/emailcipator/pull/290"
+          },
+          {
+            "title": "Roadmap: Mailcow install guide done",
+            "pr": 289,
+            "commit": "ec8240af9ef7362a7d585908da8f4c7ba2a9528f",
+            "url": "https://github.com/rsipka/emailcipator/pull/289"
+          }
+        ]
+      },
+      {
+        "version": "0.1.2-236-ga13d104",
+        "commit": "a13d104e0b45076ad05a1405e28d2ea688b771b1",
+        "published_at": "2026-11-03T22:10:43Z",
+        "changes": [
+          {
+            "title": "Mailcow install guide; agent pins the Rspamd controller certificate",
+            "pr": 288,
+            "commit": "a13d104e0b45076ad05a1405e28d2ea688b771b1",
+            "url": "https://github.com/rsipka/emailcipator/pull/288"
+          },
+          {
+            "title": "Mailcow connector (ADR 0091)",
+            "pr": 287,
+            "commit": "180a6fa03bea45bd48f3a9b549ee78f484b45bea",
+            "url": "https://github.com/rsipka/emailcipator/pull/287"
+          }
+        ]
+      },
+      {
+        "version": "0.1.2-231-ga6ac0a8",
+        "commit": "a6ac0a8794b14e37f9e512e3ba83f2a1eaef0a16",
+        "published_at": "2026-11-03T21:13:45Z",
+        "changes": [
+          {
+            "title": "Rspamd verdicts through Mailcow's nginx (ADR 0091)",
+            "pr": 286,
+            "commit": "a6ac0a8794b14e37f9e512e3ba83f2a1eaef0a16",
+            "url": "https://github.com/rsipka/emailcipator/pull/286"
+          }
+        ]
+      },
+      {
+        "version": "0.1.2-228-g16631f4",
+        "commit": "16631f4ccd49cca301461ed7dacadb9e35f2e2df",
+        "published_at": "2026-11-03T13:55:01Z",
+        "changes": [
+          {
+            "title": "Mailcow fixture lab and Docker-journal fixtures (ADR 0091)",
+            "pr": 285,
+            "commit": "16631f4ccd49cca301461ed7dacadb9e35f2e2df",
+            "url": "https://github.com/rsipka/emailcipator/pull/285"
+          }
+        ]
+      },
+      {
+        "version": "0.1.2-226-gd6b3ce0",
+        "commit": "d6b3ce0156eadfde851961b3b92db31ab44264f3",
+        "published_at": "2026-11-03T12:44:45Z",
+        "changes": [
+          {
+            "title": "Agent container source for Mailcow (ADR 0091)",
+            "pr": 284,
+            "commit": "d6b3ce0156eadfde851961b3b92db31ab44264f3",
+            "url": "https://github.com/rsipka/emailcipator/pull/284"
+          },
+          {
+            "title": "Accept ADR 0091: Mailcow through the Docker journal",
+            "pr": 283,
+            "commit": "90fda48ccdce0942e647af2cac2c307f62dbdfbd",
+            "url": "https://github.com/rsipka/emailcipator/pull/283"
+          },
+          {
+            "title": "Propose ADR 0091: Mailcow through the Docker journal",
+            "pr": 282,
+            "commit": "392983b6536e198c916b25f419381c88d3abc5b5",
+            "url": "https://github.com/rsipka/emailcipator/pull/282"
+          },
+          {
+            "title": "Study: ingesting Mailcow and other mail stacks",
+            "pr": 281,
+            "commit": "f4fce80a21c3417926dc0a10c8725024b788add4",
+            "url": "https://github.com/rsipka/emailcipator/pull/281"
+          },
+          {
+            "title": "Accept ADR 0090: approve suggested uid assignments",
+            "pr": 280,
+            "commit": "796fa16ce4fa9102eb09f302da550267660d049f",
+            "url": "https://github.com/rsipka/emailcipator/pull/280"
+          }
+        ]
+      },
+      {
+        "version": "0.1.2-216-g450b309",
+        "commit": "450b3099ff355dc56405f44f16e29e586481e1b9",
+        "published_at": "2026-11-03T10:44:49Z",
+        "changes": [
+          {
+            "title": "Senders to approve: suggested uid assignments from the panel's websites",
+            "pr": 279,
+            "commit": "450b3099ff355dc56405f44f16e29e586481e1b9",
+            "url": "https://github.com/rsipka/emailcipator/pull/279"
+          },
+          {
+            "title": "Docs: amavis, Courier and maildrop supported, tested on fixtures only (ADR 0088)",
+            "pr": 278,
+            "commit": "e041e55cf3437cf10a08cc92a3187e772103cd2f",
+            "url": "https://github.com/rsipka/emailcipator/pull/278"
+          }
+        ]
+      },
+      {
+        "version": "0.1.2-212-g182ecef",
+        "commit": "182ecef84d2c76ccc4a506f975687292f692d565",
+        "published_at": "2026-11-03T10:09:27Z",
+        "changes": [
+          {
+            "title": "Correlation: amavis verdicts, Courier logins, maildrop copies (ADR 0088)",
+            "pr": 277,
+            "commit": "182ecef84d2c76ccc4a506f975687292f692d565",
+            "url": "https://github.com/rsipka/emailcipator/pull/277"
+          }
+        ]
+      },
+      {
+        "version": "0.1.2-209-g862928e",
+        "commit": "862928e1fc890bcbf0b1ee3f36c3fb195b9b06f5",
+        "published_at": "2026-11-03T09:24:14Z",
+        "changes": [
+          {
+            "title": "Recipients: clearer copy-to label",
+            "pr": 276,
+            "commit": "862928e1fc890bcbf0b1ee3f36c3fb195b9b06f5",
+            "url": "https://github.com/rsipka/emailcipator/pull/276"
+          }
+        ]
+      },
+      {
+        "version": "0.1.2-207-g2330dba",
+        "commit": "2330dbad061ef33897fbb3ee5879f25e24b9b009",
+        "published_at": "2026-11-03T08:51:42Z",
+        "changes": [
+          {
+            "title": "Parsers: amavisd-new verdicts and Courier IMAP/POP3 logins (ADR 0088)",
+            "pr": 275,
+            "commit": "2330dbad061ef33897fbb3ee5879f25e24b9b009",
+            "url": "https://github.com/rsipka/emailcipator/pull/275"
+          }
+        ]
+      },
+      {
+        "version": "0.1.2-205-g6fd6607",
+        "commit": "6fd66072b690081492fc9b24581405bb36a4877a",
+        "published_at": "2026-11-03T08:38:44Z",
+        "changes": [
+          {
+            "title": "Message detail: a bounce names its original and the recipients that failed",
+            "pr": 274,
+            "commit": "6fd66072b690081492fc9b24581405bb36a4877a",
+            "url": "https://github.com/rsipka/emailcipator/pull/274"
+          }
+        ]
+      },
+      {
+        "version": "0.1.2-203-g425f080",
+        "commit": "425f080002bb6158cead30a824f02d97c46ab59c",
+        "published_at": "2026-11-03T00:51:56Z",
+        "changes": [
+          {
+            "title": "Lab: amavis and Courier/maildrop mail hosts with fixtures (ADR 0088)",
+            "pr": 272,
+            "commit": "425f080002bb6158cead30a824f02d97c46ab59c",
+            "url": "https://github.com/rsipka/emailcipator/pull/272"
+          }
+        ]
+      },
+      {
+        "version": "0.1.2-200-g2c35bf4",
+        "commit": "2c35bf4586fe1a0951f410fd0a5bd9483e4b2738",
+        "published_at": "2026-11-03T00:18:26Z",
+        "changes": [
+          {
+            "title": "Message detail: Path as a tree with each hop's result, recipients and explanations",
+            "pr": 273,
+            "commit": "2c35bf4586fe1a0951f410fd0a5bd9483e4b2738",
+            "url": "https://github.com/rsipka/emailcipator/pull/273"
+          }
+        ]
+      },
+      {
+        "version": "0.1.2-198-g1ba1e3f",
+        "commit": "1ba1e3f99e6080862743d5ca4c8984a821f78645",
+        "published_at": "2026-11-02T23:43:55Z",
+        "changes": [
+          {
+            "title": "Add fixed-rate query load diagnostics with explicit overload accounting",
+            "pr": 269,
+            "commit": "1ba1e3f99e6080862743d5ca4c8984a821f78645",
+            "url": "https://github.com/rsipka/emailcipator/pull/269"
+          }
+        ]
+      },
+      {
+        "version": "0.1.2-196-g942d10b",
+        "commit": "942d10b9672cc6a4328fa922420c2f0fc0aefcf9",
+        "published_at": "2026-11-02T23:16:42Z",
+        "changes": [
+          {
+            "title": "Logins: host, customer and optional columns with a column chooser",
+            "pr": 271,
+            "commit": "942d10b9672cc6a4328fa922420c2f0fc0aefcf9",
+            "url": "https://github.com/rsipka/emailcipator/pull/271"
+          },
+          {
+            "title": "Accept ADR 0088",
+            "pr": 270,
+            "commit": "a8cba1c84d607279c47f8b572a4ae2490f3f6c42",
+            "url": "https://github.com/rsipka/emailcipator/pull/270"
+          },
+          {
+            "title": "ADR 0088: amavis, Courier and maildrop on ISPConfig hosts (Proposed)",
+            "pr": 268,
+            "commit": "2bd809259c6683ae68dbd7427d2adbcc38c596e3",
+            "url": "https://github.com/rsipka/emailcipator/pull/268"
+          }
+        ]
+      },
+      {
+        "version": "0.1.2-190-g6bf22cf",
+        "commit": "6bf22cf815d67157a949b319466ff8d98c861cd2",
+        "published_at": "2026-11-02T22:33:13Z",
+        "changes": [
+          {
+            "title": "Lab: EL 9 fixtures with long queue IDs and dual-stack IPv6",
+            "pr": 267,
+            "commit": "6bf22cf815d67157a949b319466ff8d98c861cd2",
+            "url": "https://github.com/rsipka/emailcipator/pull/267"
+          }
+        ]
+      },
+      {
+        "version": "0.1.2-188-ge142cb4",
+        "commit": "e142cb42a3372f9c530ab484a9fc9b7e8afbf5bd",
+        "published_at": "2026-11-02T22:22:19Z",
+        "changes": [
+          {
+            "title": "Lab: AlmaLinux 9 mail host with Postfix 3.5 and rsyslog, EL 9 fixtures",
+            "pr": 266,
+            "commit": "e142cb42a3372f9c530ab484a9fc9b7e8afbf5bd",
+            "url": "https://github.com/rsipka/emailcipator/pull/266"
+          }
+        ]
+      },
+      {
+        "version": "0.1.2-186-g26641ef",
+        "commit": "26641ef35e3a0d3444664da645b89e05cb9890a3",
+        "published_at": "2026-11-02T22:07:23Z",
+        "changes": [
+          {
+            "title": "Bind provider in grid counts to avoid per-row scope evaluation",
+            "pr": 265,
+            "commit": "26641ef35e3a0d3444664da645b89e05cb9890a3",
+            "url": "https://github.com/rsipka/emailcipator/pull/265"
+          }
+        ]
+      },
+      {
+        "version": "0.1.2-184-g3573561",
+        "commit": "35735610664e4df99b40adbce6f18f45c4981e31",
+        "published_at": "2026-11-02T21:10:05Z",
+        "changes": [
+          {
+            "title": "Profile dense customer count scans under resource limits",
+            "pr": 263,
+            "commit": "35735610664e4df99b40adbce6f18f45c4981e31",
+            "url": "https://github.com/rsipka/emailcipator/pull/263"
+          },
+          {
+            "title": "Accept ADR 0086 (masked raw lines for customers)",
+            "pr": 264,
+            "commit": "74f3d586441e73f726e5e77733ac3956acba388f",
+            "url": "https://github.com/rsipka/emailcipator/pull/264"
+          }
+        ]
+      },
+      {
+        "version": "0.1.2-180-gaa7ceae",
+        "commit": "aa7ceae5aee7ab2863d95d6105f551d4201a6cd6",
+        "published_at": "2026-11-02T20:57:09Z",
+        "changes": [
+          {
+            "title": "Masked raw lines for customer and reseller administrators (ADR 0086)",
+            "pr": 262,
+            "commit": "aa7ceae5aee7ab2863d95d6105f551d4201a6cd6",
+            "url": "https://github.com/rsipka/emailcipator/pull/262"
+          }
+        ]
+      },
+      {
+        "version": "0.1.2-176-g7a097ea",
+        "commit": "7a097eae01c98733ad2ca39df3afccdc1ccdb175",
+        "published_at": "2026-11-02T20:39:40Z",
+        "changes": [
+          {
+            "title": "Use indexed keys for sparse counted customer grids",
+            "pr": 261,
+            "commit": "7a097eae01c98733ad2ca39df3afccdc1ccdb175",
+            "url": "https://github.com/rsipka/emailcipator/pull/261"
+          }
+        ]
+      },
+      {
+        "version": "0.1.2-174-ga63e22a",
+        "commit": "a63e22a327b0ffe8cb705964e33d8ca764988957",
+        "published_at": "2026-11-02T18:34:58Z",
+        "changes": [
+          {
+            "title": "Skip message scans for empty counted customer ranges",
+            "pr": 260,
+            "commit": "a63e22a327b0ffe8cb705964e33d8ca764988957",
+            "url": "https://github.com/rsipka/emailcipator/pull/260"
+          }
+        ]
+      }
+    ]
+  }
+}

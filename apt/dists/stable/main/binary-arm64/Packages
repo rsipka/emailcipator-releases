@@ -1,0 +1,42 @@
+Package: emailcipator-agent
+Architecture: arm64
+Version: 0.1.0
+Priority: optional
+Section: mail
+Maintainer: Emailcipator <noreply@example.net>
+Installed-Size: 7800
+Depends: systemd, adduser
+Recommends: postfix
+Filename: pool/stable/emailcipator-agent_0.1.0_arm64.deb
+Size: 2372412
+MD5sum: 08a690b6178db15ac2ab4229d523a0c5
+SHA1: 55e6a544d991f837b1d31ff1b81d26b9f1948dd0
+SHA256: c3895f8f0b7ba583d00b3d05ec21451e400dfa9224fe8a46997fc6f54ad15e5d
+SHA512: 983a5a2931357406836b063b92d126b45c2c2e7b34fd394aba78706ce423cc9e5cce2d53908a149434d53461802232ec59ca8c07821920e331fc85845bcb3519
+Homepage: https://github.com/rsipka/emailcipator
+Description: Emailcipator agent — mail log shipping over mutual TLS
+ Reads the Postfix, Dovecot and Rspamd units' journal on a mail host, parses the
+ lines into events and ships them to an Emailcipator server. Read-only: never in
+ the mail path. Outbound connections only.
+
+Package: emailcipator-agent
+Architecture: arm64
+Version: 0.1.2
+Priority: optional
+Section: mail
+Maintainer: Emailcipator <noreply@example.net>
+Installed-Size: 7812
+Depends: systemd, adduser
+Recommends: postfix
+Filename: pool/stable/emailcipator-agent_0.1.2_arm64.deb
+Size: 2382020
+MD5sum: 74d7536deff6288e1aa1ab3aae1676a7
+SHA1: 77976136143e8548bbf7f894efdf36c06868249e
+SHA256: f2a2054c08bfdca6a037898c92ef9d5a3385613ae739c9cc693c9ab8c58920b9
+SHA512: 1fbca2fab64c125e06adefbdaae42183e6b4c2893ee6a1ce5e879b3624a2d9a26569c29dd563681e3c3951cb3ff6fc692f0759fd8bcb3113576ad098ca1b36ab
+Homepage: https://github.com/rsipka/emailcipator
+Description: Emailcipator agent — mail log shipping over mutual TLS
+ Reads the Postfix, Dovecot and Rspamd units' journal on a mail host, parses the
+ lines into events and ships them to an Emailcipator server. Read-only: never in
+ the mail path. Outbound connections only.
+

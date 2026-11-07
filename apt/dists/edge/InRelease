@@ -1,0 +1,47 @@
+-----BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA512
+
+Architectures: amd64 arm64
+Codename: edge
+Components: main
+Date: Sat, 07 Nov 2026 14:37:00 +0000
+Description: Emailcipator agent (edge)
+Label: Emailcipator
+Origin: Emailcipator
+Suite: edge
+MD5Sum:
+ f38d77aadbcc01472e2e0b332ae0433d             2784 main/binary-amd64/Packages
+ 78168b42c0d3ed0173672d77e4c6028b             1027 main/binary-amd64/Packages.gz
+ 372ad6c4f3441530ed243ff7821ea809             2784 main/binary-arm64/Packages
+ fc4bd51639cea2dded66466d06407df3             1035 main/binary-arm64/Packages.gz
+SHA1:
+ 7474dab8f34d954d24002dcde51df61ccc529fc1             2784 main/binary-amd64/Packages
+ a05b59bb8191eb959269d876c09478a8a2272bc1             1027 main/binary-amd64/Packages.gz
+ 4d0b4fba68997bcb0e171f56571d6ce70bac9750             2784 main/binary-arm64/Packages
+ ad82371ccd3a58f2136ee8d61edccf9f76a1d83d             1035 main/binary-arm64/Packages.gz
+SHA256:
+ 41c8e2fd693ea8f50788f31d121a7be0393fde73ff2050a81d568102a7d367d9             2784 main/binary-amd64/Packages
+ 0a37430eddf8025a03bbf4f0f9f876655fcb7c2e998f8c8a6e2b90f2bf4101e2             1027 main/binary-amd64/Packages.gz
+ 27e9df22983eebf320539252279a4c052e5ac51f76dc10f229463191c9f4ecf4             2784 main/binary-arm64/Packages
+ 0bab8f668d3321ca94a062710231c84e81e2110fc5e7db36d432107fd4f43298             1035 main/binary-arm64/Packages.gz
+SHA512:
+ a42ce5fa248ec3a2e3f8efc4d20104bdbb1ccd97fc62b336e917a8cee721de314460bd73043a6337c64fa4e30aef7e6b504ddcd5cc37af888d5fcb3ac7bf5159             2784 main/binary-amd64/Packages
+ 60bdc72400474c1586fc1d7d0dc461cda23f7c9786dfdaeccf8a1565539ee5bd8608971769f5603aa5f97a2227375228199b445c00be031c103096ad25ec2c7c             1027 main/binary-amd64/Packages.gz
+ 81bfc9173fcb89aef49ddff32f2d58e5b4ba3431590d17ca26e02dbeb7b3f0c56c5310f30ae5220c2cfcc07364a96507b63fbcb967b02e076662b3f87d51f98a             2784 main/binary-arm64/Packages
+ 9955eb853f1a6bd63e8238695f8b31732fec555716eb5bd5868ae3e6902983a86542f69487b130e660d91b4c3c460712d047f8a499c0724b382abd735c6bee62             1035 main/binary-arm64/Packages.gz
+-----BEGIN PGP SIGNATURE-----
+
+iQIzBAEBCgAdFiEEaq3kfVvo95IGVOVqY10s4etrvC8FAmrvN4wACgkQY10s4etr
+vC8hzg//Q47KuMz19a5KHuS6J+9HZv9Yzg/ZADNySxxY/1TuLBY+xbBtKyKI6R/x
+xdzVqk+vPrjU+HGGUgL24YHbTTsAIEgBH0G7NNtUd96Yxiq0R848MQOIJWI8fCjC
+sgqHFPq21jA1GzmFlh7nhaprTNzdbTxZb7LUfODU9D0Fv9WSq8jVA5dAYwY/dgmL
+EScvVqf74sqUahAJbbGi5jIBOBdmHFYgRrPqDR4qWLOOgXinoyuFUh66eC2VXtKO
+Peta8pej4fiPi6icDiTAtia7VWtjMdlae4ZrHIGh0eTE+a5/FXXyfJ5zLc7X4br2
+8zdPFbSSa0JwufNeBk/ApxrMxS6cgQuEjPNhkq3OktEelTiXlpiTQ1iPIswtDqM6
+P63Wom90V180c8otNc3coFbt+N75YdEGBPzbcNnJ1NxX6HqS9DUVTWJIvmuRuyRP
+xiwt9qb/AW29TDo7FsnIf2orqGIblqmGByDiZx0l86Z5ztyHKM7WEtRaY+fNoZs3
+Gh+sYVH+DFg/XYMXXJjGPWfUgXdlWkmLtN0L8NYsafSsNv0pt18kbOHibKK3m0zS
+q8AgZlRDZ1tMkWU+7ayTdvuJA38EhQEqpAdD4ojgrycoKxTPe8p1N/AV3WHTqZyX
+RzwHOo7Z90YGg490/+4J+16VsRmojtLl4tXcvMcBxzvYn9NTfx0=
+=VP4O
+-----END PGP SIGNATURE-----
