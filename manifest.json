@@ -1,0 +1,799 @@
+{
+  "schema": 1,
+  "generated_at": "2026-11-14T10:21:48Z",
+  "channels": {
+    "edge": {
+      "version": "0.2.0-59-g43dc375",
+      "published_at": "2026-11-14T10:21:48Z",
+      "notes_url": "https://github.com/rsipka/emailcipator/releases/tag/edge"
+    },
+    "stable": {
+      "version": "0.2.0",
+      "published_at": "2026-11-09T10:35:31Z",
+      "notes_url": "https://github.com/rsipka/emailcipator/releases/tag/v0.2.0"
+    }
+  },
+  "history": {
+    "edge": [
+      {
+        "version": "0.2.0-59-g43dc375",
+        "commit": "43dc375448eac19f9faf06037a6078c015ff7fa3",
+        "published_at": "2026-11-14T10:21:48Z",
+        "changes": [
+          {
+            "title": "Explain enhanced SMTP status codes over MCP",
+            "pr": 400,
+            "commit": "43dc375448eac19f9faf06037a6078c015ff7fa3",
+            "url": "https://github.com/rsipka/emailcipator/pull/400"
+          }
+        ]
+      },
+      {
+        "version": "0.2.0-57-gd55b2b0",
+        "commit": "d55b2b0b2536c5b59e8f0643387ac1154f62d5fb",
+        "published_at": "2026-11-14T09:53:28Z",
+        "changes": [
+          {
+            "title": "Submit validated pattern pack drafts over MCP",
+            "pr": 399,
+            "commit": "d55b2b0b2536c5b59e8f0643387ac1154f62d5fb",
+            "url": "https://github.com/rsipka/emailcipator/pull/399"
+          }
+        ]
+      },
+      {
+        "version": "0.2.0-54-g84bec96",
+        "commit": "84bec965cff8671845c62bc05fe656c50cef707b",
+        "published_at": "2026-11-14T09:01:06Z",
+        "changes": [
+          {
+            "title": "Validate pattern pack drafts over MCP",
+            "pr": 398,
+            "commit": "84bec965cff8671845c62bc05fe656c50cef707b",
+            "url": "https://github.com/rsipka/emailcipator/pull/398"
+          }
+        ]
+      },
+      {
+        "version": "0.2.0-48-g3d9aa67",
+        "commit": "3d9aa675a62a80beedad272dbb6766468906874c",
+        "published_at": "2026-11-14T01:13:31Z",
+        "changes": [
+          {
+            "title": "Limit unauthenticated requests that store rows, and live tails per user",
+            "pr": 396,
+            "commit": "3d9aa675a62a80beedad272dbb6766468906874c",
+            "url": "https://github.com/rsipka/emailcipator/pull/396"
+          },
+          {
+            "title": "Add a guide to hardening the reverse proxy in front of the web UI",
+            "pr": 397,
+            "commit": "c1e47a0805656fa9f5380d5e91827a0b44356b9e",
+            "url": "https://github.com/rsipka/emailcipator/pull/397"
+          }
+        ]
+      },
+      {
+        "version": "0.2.0-43-gf457c32",
+        "commit": "f457c3280e70e339a7daa6dbf83eee9abf13eef4",
+        "published_at": "2026-11-14T00:39:14Z",
+        "changes": [
+          {
+            "title": "Bound password hashing and count sign-in attempts when they start",
+            "pr": 395,
+            "commit": "f457c3280e70e339a7daa6dbf83eee9abf13eef4",
+            "url": "https://github.com/rsipka/emailcipator/pull/395"
+          }
+        ]
+      },
+      {
+        "version": "0.2.0-39-g0431976",
+        "commit": "0431976f0f509e20038b82c1e1db00971b4f30a2",
+        "published_at": "2026-11-12T23:29:01Z",
+        "changes": [
+          {
+            "title": "Unify provider switching and protect pending settings edits",
+            "pr": 393,
+            "commit": "0431976f0f509e20038b82c1e1db00971b4f30a2",
+            "url": "https://github.com/rsipka/emailcipator/pull/393"
+          },
+          {
+            "title": "Accept the 25 ADRs whose decisions are built",
+            "pr": 394,
+            "commit": "5f39459284827f6f2fd4d2ffbc270f8e00ed69e5",
+            "url": "https://github.com/rsipka/emailcipator/pull/394"
+          }
+        ]
+      },
+      {
+        "version": "0.2.0-35-g9b3f124",
+        "commit": "9b3f12454eaebc33193ed33478c2b7c586c00941",
+        "published_at": "2026-11-10T23:59:46Z",
+        "changes": [
+          {
+            "title": "Protect settings drafts and fix save feedback across four pages",
+            "pr": 392,
+            "commit": "9b3f12454eaebc33193ed33478c2b7c586c00941",
+            "url": "https://github.com/rsipka/emailcipator/pull/392"
+          }
+        ]
+      },
+      {
+        "version": "0.2.0-33-gf5b219e",
+        "commit": "f5b219eb4f55cdbe2d4f746e3e3c036373751af4",
+        "published_at": "2026-11-10T23:31:06Z",
+        "changes": [
+          {
+            "title": "Fix account credential dialogs and shared reauthentication",
+            "pr": 391,
+            "commit": "f5b219eb4f55cdbe2d4f746e3e3c036373751af4",
+            "url": "https://github.com/rsipka/emailcipator/pull/391"
+          }
+        ]
+      },
+      {
+        "version": "0.2.0-31-g87f0bc3",
+        "commit": "87f0bc3778ab59e0e0fd8245e750064af8ebcf4b",
+        "published_at": "2026-11-10T22:31:52Z",
+        "changes": [
+          {
+            "title": "Clear stale navigation searches across session scopes",
+            "pr": 390,
+            "commit": "87f0bc3778ab59e0e0fd8245e750064af8ebcf4b",
+            "url": "https://github.com/rsipka/emailcipator/pull/390"
+          }
+        ]
+      },
+      {
+        "version": "0.2.0-29-g38ed329",
+        "commit": "38ed329edbca0944db7a2b2bd851b8fa376c03b0",
+        "published_at": "2026-11-10T22:05:50Z",
+        "changes": [
+          {
+            "title": "Scope MCP connections, OAuth consent and pattern pack management",
+            "pr": 389,
+            "commit": "38ed329edbca0944db7a2b2bd851b8fa376c03b0",
+            "url": "https://github.com/rsipka/emailcipator/pull/389"
+          }
+        ]
+      },
+      {
+        "version": "0.2.0-27-g897a492",
+        "commit": "897a492bbb33c2a0fd94a35b3706b4fd075676e1",
+        "published_at": "2026-11-10T19:51:26Z",
+        "changes": [
+          {
+            "title": "Isolate browser state across four settings pages",
+            "pr": 388,
+            "commit": "897a492bbb33c2a0fd94a35b3706b4fd075676e1",
+            "url": "https://github.com/rsipka/emailcipator/pull/388"
+          }
+        ]
+      },
+      {
+        "version": "0.2.0-25-gb8b00a3",
+        "commit": "b8b00a3f18093bbc299e805aef5d97c6439976d7",
+        "published_at": "2026-11-10T13:52:01Z",
+        "changes": [
+          {
+            "title": "Isolate Domains browser state by scope",
+            "pr": 387,
+            "commit": "b8b00a3f18093bbc299e805aef5d97c6439976d7",
+            "url": "https://github.com/rsipka/emailcipator/pull/387"
+          }
+        ]
+      },
+      {
+        "version": "0.2.0-23-g102b741",
+        "commit": "102b74140f5779ca1e56b06ca33bfd65712aa485",
+        "published_at": "2026-11-10T13:41:48Z",
+        "changes": [
+          {
+            "title": "Scope Host agents settings and enrollment to the active session",
+            "pr": 386,
+            "commit": "102b74140f5779ca1e56b06ca33bfd65712aa485",
+            "url": "https://github.com/rsipka/emailcipator/pull/386"
+          }
+        ]
+      },
+      {
+        "version": "0.2.0-21-gd14ec69",
+        "commit": "d14ec698f2ed1190f42150860d1deff6570522a0",
+        "published_at": "2026-11-10T13:06:10Z",
+        "changes": [
+          {
+            "title": "Scope Parser Health data and drafts to the active session",
+            "pr": 385,
+            "commit": "d14ec698f2ed1190f42150860d1deff6570522a0",
+            "url": "https://github.com/rsipka/emailcipator/pull/385"
+          }
+        ]
+      },
+      {
+        "version": "0.2.0-19-g83075c3",
+        "commit": "83075c3656477c47639cbd1e61f48a0c9e785ea7",
+        "published_at": "2026-11-10T09:44:44Z",
+        "changes": [
+          {
+            "title": "Scope integration settings to the active session",
+            "pr": 384,
+            "commit": "83075c3656477c47639cbd1e61f48a0c9e785ea7",
+            "url": "https://github.com/rsipka/emailcipator/pull/384"
+          }
+        ]
+      },
+      {
+        "version": "0.2.0-17-gd6126e1",
+        "commit": "d6126e1b32361f336fd1d5f256ee211a8d9958af",
+        "published_at": "2026-11-10T08:33:20Z",
+        "changes": [
+          {
+            "title": "Scope Rspamd flags and approvals to the active session",
+            "pr": 383,
+            "commit": "d6126e1b32361f336fd1d5f256ee211a8d9958af",
+            "url": "https://github.com/rsipka/emailcipator/pull/383"
+          }
+        ]
+      },
+      {
+        "version": "0.2.0-15-gc009273",
+        "commit": "c009273204b0653650208093e55562b6d0c07018",
+        "published_at": "2026-11-10T08:18:51Z",
+        "changes": [
+          {
+            "title": "Scope grid export dialogs to the active session",
+            "pr": 382,
+            "commit": "c009273204b0653650208093e55562b6d0c07018",
+            "url": "https://github.com/rsipka/emailcipator/pull/382"
+          }
+        ]
+      },
+      {
+        "version": "0.2.0-13-gd2eb903",
+        "commit": "d2eb903da181b0fd7c11f413154c43290f8bc54c",
+        "published_at": "2026-11-09T23:44:15Z",
+        "changes": [
+          {
+            "title": "Scope Reports and Audit browser data to the active session",
+            "pr": 381,
+            "commit": "d2eb903da181b0fd7c11f413154c43290f8bc54c",
+            "url": "https://github.com/rsipka/emailcipator/pull/381"
+          }
+        ]
+      },
+      {
+        "version": "0.2.0-11-g14e657e",
+        "commit": "14e657e77702d3bcdcd3a9bca85968b67d20131c",
+        "published_at": "2026-11-09T23:28:12Z",
+        "changes": [
+          {
+            "title": "Scope Saved Views and Connection Map to the active session",
+            "pr": 380,
+            "commit": "14e657e77702d3bcdcd3a9bca85968b67d20131c",
+            "url": "https://github.com/rsipka/emailcipator/pull/380"
+          }
+        ]
+      },
+      {
+        "version": "0.2.0-9-g79dd4eb",
+        "commit": "79dd4ebea8a90ef5b8e944fce24b86da2d0b1ad6",
+        "published_at": "2026-11-09T23:16:16Z",
+        "changes": [
+          {
+            "title": "Scope alert settings and editors to the active session",
+            "pr": 379,
+            "commit": "79dd4ebea8a90ef5b8e944fce24b86da2d0b1ad6",
+            "url": "https://github.com/rsipka/emailcipator/pull/379"
+          }
+        ]
+      },
+      {
+        "version": "0.2.0-7-g0809c8f",
+        "commit": "0809c8f8bec65849788a7da055fe7948f8cac966",
+        "published_at": "2026-11-09T12:05:52Z",
+        "changes": [
+          {
+            "title": "Scope Queue, Mailboxes and Alerts browser data",
+            "pr": 378,
+            "commit": "0809c8f8bec65849788a7da055fe7948f8cac966",
+            "url": "https://github.com/rsipka/emailcipator/pull/378"
+          },
+          {
+            "title": "Backups: off-site copies to S3 (ADR 0120)",
+            "pr": 377,
+            "commit": "9af5e48ad3601ad5e4beb47c179038eb17fe366c",
+            "url": "https://github.com/rsipka/emailcipator/pull/377"
+          }
+        ]
+      },
+      {
+        "version": "0.2.0-2-gd2cd9b4",
+        "commit": "d2cd9b44490a67edf898963f5de8059d9052db4d",
+        "published_at": "2026-11-09T11:10:50Z",
+        "changes": [
+          {
+            "title": "Scope browser mail data to the active session",
+            "pr": 376,
+            "commit": "d2cd9b44490a67edf898963f5de8059d9052db4d",
+            "url": "https://github.com/rsipka/emailcipator/pull/376"
+          },
+          {
+            "title": "CHANGELOG: 0.2.0",
+            "pr": 375,
+            "commit": "773164bd458ad4f58182366459209624bf3ac4aa",
+            "url": "https://github.com/rsipka/emailcipator/pull/375"
+          }
+        ]
+      },
+      {
+        "version": "0.1.2-430-g46a03fd",
+        "commit": "46a03fd27d17a2b9d15cd0ebdd3084abe189dbf5",
+        "published_at": "2026-11-08T23:32:54Z",
+        "changes": [
+          {
+            "title": "Scope message lists and Live to the active session",
+            "pr": 374,
+            "commit": "46a03fd27d17a2b9d15cd0ebdd3084abe189dbf5",
+            "url": "https://github.com/rsipka/emailcipator/pull/374"
+          }
+        ]
+      },
+      {
+        "version": "0.1.2-428-g84dbf63",
+        "commit": "84dbf63c6ef8cbc1cfccfd201cace66237f12c83",
+        "published_at": "2026-11-08T22:57:16Z",
+        "changes": [
+          {
+            "title": "Scope cached message panel data to the active session",
+            "pr": 373,
+            "commit": "84dbf63c6ef8cbc1cfccfd201cace66237f12c83",
+            "url": "https://github.com/rsipka/emailcipator/pull/373"
+          }
+        ]
+      },
+      {
+        "version": "0.1.2-426-gbfc5da7",
+        "commit": "bfc5da7125d4c16077cf94558daf5c6cce5686a2",
+        "published_at": "2026-11-08T18:38:14Z",
+        "changes": [
+          {
+            "title": "Add Lucide icons to navigation and Settings",
+            "pr": 372,
+            "commit": "bfc5da7125d4c16077cf94558daf5c6cce5686a2",
+            "url": "https://github.com/rsipka/emailcipator/pull/372"
+          }
+        ]
+      },
+      {
+        "version": "0.1.2-424-g7725309",
+        "commit": "772530983b403df28e4524196dc8f9e37a59f030",
+        "published_at": "2026-11-08T16:38:21Z",
+        "changes": [
+          {
+            "title": "Scope the browser summary cache to the active session context",
+            "pr": 371,
+            "commit": "772530983b403df28e4524196dc8f9e37a59f030",
+            "url": "https://github.com/rsipka/emailcipator/pull/371"
+          }
+        ]
+      },
+      {
+        "version": "0.1.2-422-gb5d07f1",
+        "commit": "b5d07f12e8c5a5096a8a01c34c99436f3d0e6bd9",
+        "published_at": "2026-11-08T16:10:49Z",
+        "changes": [
+          {
+            "title": "Redact address-like metadata from masked summary prompts",
+            "pr": 370,
+            "commit": "b5d07f12e8c5a5096a8a01c34c99436f3d0e6bd9",
+            "url": "https://github.com/rsipka/emailcipator/pull/370"
+          }
+        ]
+      },
+      {
+        "version": "0.1.2-420-g1b5dc71",
+        "commit": "1b5dc71eb08122d1127ccb25aee157748e256891",
+        "published_at": "2026-11-08T15:39:16Z",
+        "changes": [
+          {
+            "title": "Keep summary dispatch and retention tied to the source provider",
+            "pr": 369,
+            "commit": "1b5dc71eb08122d1127ccb25aee157748e256891",
+            "url": "https://github.com/rsipka/emailcipator/pull/369"
+          }
+        ]
+      },
+      {
+        "version": "0.1.2-418-geb8c744",
+        "commit": "eb8c7440ba560afaa35b6324c56cfbdd1901a363",
+        "published_at": "2026-11-08T12:02:43Z",
+        "changes": [
+          {
+            "title": "Repair the conflicting database migrations numbered 0060",
+            "pr": 367,
+            "commit": "eb8c7440ba560afaa35b6324c56cfbdd1901a363",
+            "url": "https://github.com/rsipka/emailcipator/pull/367"
+          },
+          {
+            "title": "Release: download Cosign authenticated, cache it, retry longer",
+            "pr": 368,
+            "commit": "81a8247cf464b6c622461cf64cd9a24908923dd8",
+            "url": "https://github.com/rsipka/emailcipator/pull/368"
+          }
+        ]
+      },
+      {
+        "version": "0.1.2-414-g5662161",
+        "commit": "5662161dae77436efa9b68fc08501bf95276571a",
+        "published_at": "2026-11-08T11:03:30Z",
+        "changes": [
+          {
+            "title": "Backups: cancel, delete and alerts (ADR 0119)",
+            "pr": 365,
+            "commit": "5662161dae77436efa9b68fc08501bf95276571a",
+            "url": "https://github.com/rsipka/emailcipator/pull/365"
+          },
+          {
+            "title": "Scope cached summaries to their configured endpoint and model",
+            "pr": 366,
+            "commit": "821ccf9d14889de6846be15c9336a0d2a9563e1c",
+            "url": "https://github.com/rsipka/emailcipator/pull/366"
+          }
+        ]
+      },
+      {
+        "version": "0.1.2-409-g4659462",
+        "commit": "465946286496a242cb72ad31a5835d45dc3e993e",
+        "published_at": "2026-11-08T10:25:29Z",
+        "changes": [
+          {
+            "title": "Recover abandoned summary attempts during queue polling",
+            "pr": 364,
+            "commit": "465946286496a242cb72ad31a5835d45dc3e993e",
+            "url": "https://github.com/rsipka/emailcipator/pull/364"
+          }
+        ]
+      },
+      {
+        "version": "0.1.2-407-gecba9e5",
+        "commit": "ecba9e5e335cd3520870220a737ee088bbd33521",
+        "published_at": "2026-11-08T10:05:57Z",
+        "changes": [
+          {
+            "title": "Install pinned Cosign through the release-assets API",
+            "pr": 363,
+            "commit": "ecba9e5e335cd3520870220a737ee088bbd33521",
+            "url": "https://github.com/rsipka/emailcipator/pull/363"
+          }
+        ]
+      },
+      {
+        "version": "0.1.2-405-g5f435c1",
+        "commit": "5f435c1a32764e0b3e14ccb29ada603cd5f562b5",
+        "published_at": "2026-11-08T09:52:21Z",
+        "changes": [
+          {
+            "title": "Recheck summary destination and provider opt-in before dispatch",
+            "pr": 362,
+            "commit": "5f435c1a32764e0b3e14ccb29ada603cd5f562b5",
+            "url": "https://github.com/rsipka/emailcipator/pull/362"
+          }
+        ]
+      },
+      {
+        "version": "0.1.2-403-g8089738",
+        "commit": "808973856f87afb153c22d3bfadb9cd5e52a3132",
+        "published_at": "2026-11-08T09:32:27Z",
+        "changes": [
+          {
+            "title": "Test live pattern-pack rollout with two enrolled agents",
+            "pr": 360,
+            "commit": "808973856f87afb153c22d3bfadb9cd5e52a3132",
+            "url": "https://github.com/rsipka/emailcipator/pull/360"
+          },
+          {
+            "title": "Docs: compose.llm.yaml and encrypted backups are built",
+            "pr": 361,
+            "commit": "93b6d23637ef6bbec4ea0746375c8fa49d128b12",
+            "url": "https://github.com/rsipka/emailcipator/pull/361"
+          }
+        ]
+      },
+      {
+        "version": "0.1.2-399-g2b68004",
+        "commit": "2b68004d931c4f0c5b95c898bf194ea54d0530b5",
+        "published_at": "2026-11-08T09:02:55Z",
+        "changes": [
+          {
+            "title": "Encrypted backup packages with the keys (ADR 0116)",
+            "pr": 356,
+            "commit": "2b68004d931c4f0c5b95c898bf194ea54d0530b5",
+            "url": "https://github.com/rsipka/emailcipator/pull/356"
+          }
+        ]
+      },
+      {
+        "version": "0.1.2-396-gf897a38",
+        "commit": "f897a382ee288371805b6ffcc23113756c3371dd",
+        "published_at": "2026-11-08T08:37:02Z",
+        "changes": [
+          {
+            "title": "Prepare parser draft prompts from unparsed signatures",
+            "pr": 357,
+            "commit": "f897a382ee288371805b6ffcc23113756c3371dd",
+            "url": "https://github.com/rsipka/emailcipator/pull/357"
+          },
+          {
+            "title": "Generated summaries through an LLM endpoint setting (ADR 0107)",
+            "pr": 358,
+            "commit": "cdd55298f7be47eb5285f48ed18563ed37737ebf",
+            "url": "https://github.com/rsipka/emailcipator/pull/358"
+          },
+          {
+            "title": "compose.llm.yaml: a local model for AI summaries (ADR 0107)",
+            "pr": 359,
+            "commit": "f203e053b0ff633a42c5a4391aefaac5124a4910",
+            "url": "https://github.com/rsipka/emailcipator/pull/359"
+          }
+        ]
+      },
+      {
+        "version": "0.1.2-389-g278baaf",
+        "commit": "278baaf483e258acc02aab099b06649ba64ea31b",
+        "published_at": "2026-11-08T01:22:12Z",
+        "changes": [
+          {
+            "title": "Manage pattern pack rollout and rollback in Parser health",
+            "pr": 354,
+            "commit": "278baaf483e258acc02aab099b06649ba64ea31b",
+            "url": "https://github.com/rsipka/emailcipator/pull/354"
+          },
+          {
+            "title": "ADR 0116: encrypted backup packages with the keys",
+            "pr": 355,
+            "commit": "300e93d13b85bfdc883fc533222a03d226310123",
+            "url": "https://github.com/rsipka/emailcipator/pull/355"
+          }
+        ]
+      },
+      {
+        "version": "0.1.2-383-g9fff61f",
+        "commit": "9fff61f148e56369b3e16c4ba00b6f38a0d4ee1e",
+        "published_at": "2026-11-08T00:54:54Z",
+        "changes": [
+          {
+            "title": "Record Qwen3.5 4B as the documented local model",
+            "pr": 353,
+            "commit": "9fff61f148e56369b3e16c4ba00b6f38a0d4ee1e",
+            "url": "https://github.com/rsipka/emailcipator/pull/353"
+          }
+        ]
+      },
+      {
+        "version": "0.1.2-381-gfa2ad6c",
+        "commit": "fa2ad6cd35499af8ab6b381363e154101148345a",
+        "published_at": "2026-11-08T00:44:13Z",
+        "changes": [
+          {
+            "title": "Review and approve pattern pack drafts in parser health",
+            "pr": 352,
+            "commit": "fa2ad6cd35499af8ab6b381363e154101148345a",
+            "url": "https://github.com/rsipka/emailcipator/pull/352"
+          }
+        ]
+      },
+      {
+        "version": "0.1.2-379-ge6ddf5b",
+        "commit": "e6ddf5bd82fdb6b66f899d365d13b02edaf9a15f",
+        "published_at": "2026-11-08T00:32:22Z",
+        "changes": [
+          {
+            "title": "Report applied pattern pack assignments in agent heartbeats",
+            "pr": 350,
+            "commit": "e6ddf5bd82fdb6b66f899d365d13b02edaf9a15f",
+            "url": "https://github.com/rsipka/emailcipator/pull/350"
+          },
+          {
+            "title": "Fix agent package builder’s missing embedded event schema",
+            "pr": 351,
+            "commit": "b880a9f0f92459d7f4ce9e81688afaf8ab79c4cf",
+            "url": "https://github.com/rsipka/emailcipator/pull/351"
+          },
+          {
+            "title": "Mask display names on MCP whatever the provider setting",
+            "pr": 348,
+            "commit": "26c37845e83e7bcec8a8a28c30cd9b1042108f0b",
+            "url": "https://github.com/rsipka/emailcipator/pull/348"
+          },
+          {
+            "title": "LLM benchmark: add 8-bit Qwen3.5 4B and Gemma 4 E2B",
+            "pr": 349,
+            "commit": "4e5e64acc8325173c540aa8730ca64cb4fe59dea",
+            "url": "https://github.com/rsipka/emailcipator/pull/349"
+          },
+          {
+            "title": "Activate assigned pattern packs with a last-valid agent cache",
+            "pr": 347,
+            "commit": "a002425502fb30f13a8af79f4c731208e416838d",
+            "url": "https://github.com/rsipka/emailcipator/pull/347"
+          }
+        ]
+      },
+      {
+        "version": "0.1.2-368-gaf57390",
+        "commit": "af573901764d71a28900eecdafe9abe444dc3616",
+        "published_at": "2026-11-07T23:51:12Z",
+        "changes": [
+          {
+            "title": "LLM benchmark: field names the model can't confuse, and fixed checks",
+            "pr": 346,
+            "commit": "af573901764d71a28900eecdafe9abe444dc3616",
+            "url": "https://github.com/rsipka/emailcipator/pull/346"
+          }
+        ]
+      },
+      {
+        "version": "0.1.2-366-g4f20935",
+        "commit": "4f20935afb7c92f679a9235d2180a3c8a24691f6",
+        "published_at": "2026-11-07T23:39:09Z",
+        "changes": [
+          {
+            "title": "Expose desired pattern pack assignments to selected agents",
+            "pr": 345,
+            "commit": "4f20935afb7c92f679a9235d2180a3c8a24691f6",
+            "url": "https://github.com/rsipka/emailcipator/pull/345"
+          }
+        ]
+      },
+      {
+        "version": "0.1.2-364-g3fc16b2",
+        "commit": "3fc16b2861fe0f26ca75694104fe5229e3600f81",
+        "published_at": "2026-11-07T22:54:40Z",
+        "changes": [
+          {
+            "title": "Deliver exact approved pattern packs over agent mTLS",
+            "pr": 344,
+            "commit": "3fc16b2861fe0f26ca75694104fe5229e3600f81",
+            "url": "https://github.com/rsipka/emailcipator/pull/344"
+          }
+        ]
+      },
+      {
+        "version": "0.1.2-362-g22d2a20",
+        "commit": "22d2a206aeb2789bbe1f0c7c60c7ab37983928e6",
+        "published_at": "2026-11-07T22:34:20Z",
+        "changes": [
+          {
+            "title": "Restrict approved pattern packs to fixed host warning fields",
+            "pr": 343,
+            "commit": "22d2a206aeb2789bbe1f0c7c60c7ab37983928e6",
+            "url": "https://github.com/rsipka/emailcipator/pull/343"
+          },
+          {
+            "title": "LLM benchmark: Docker container removal and explicit delivery",
+            "pr": 342,
+            "commit": "e4903f3da17ee3a310ab33706735d7c7e3eca88e",
+            "url": "https://github.com/rsipka/emailcipator/pull/342"
+          }
+        ]
+      },
+      {
+        "version": "0.1.2-357-ge88de3b",
+        "commit": "e88de3b66f0eecb1a1fc44ed68e62d5352853dd7",
+        "published_at": "2026-11-07T21:59:59Z",
+        "changes": [
+          {
+            "title": "Record provider pattern pack approvals for explicit hosts",
+            "pr": 340,
+            "commit": "e88de3b66f0eecb1a1fc44ed68e62d5352853dd7",
+            "url": "https://github.com/rsipka/emailcipator/pull/340"
+          }
+        ]
+      },
+      {
+        "version": "0.1.2-355-g2557186",
+        "commit": "2557186c6947f1f135f5e768c2a2bb26fc6ccb80",
+        "published_at": "2026-11-07T21:45:24Z",
+        "changes": [
+          {
+            "title": "Add an LLM benchmark tool for local summaries",
+            "pr": 341,
+            "commit": "2557186c6947f1f135f5e768c2a2bb26fc6ccb80",
+            "url": "https://github.com/rsipka/emailcipator/pull/341"
+          }
+        ]
+      },
+      {
+        "version": "0.1.2-353-g9e1099c",
+        "commit": "9e1099c1306b9f7dde62492bb73ca262e11e694a",
+        "published_at": "2026-11-07T18:20:50Z",
+        "changes": [
+          {
+            "title": "Drill down the MCP customer facet by customer ID",
+            "pr": 339,
+            "commit": "9e1099c1306b9f7dde62492bb73ca262e11e694a",
+            "url": "https://github.com/rsipka/emailcipator/pull/339"
+          },
+          {
+            "title": "Preview pattern packs against provider samples",
+            "pr": 338,
+            "commit": "890c0047069c70bed533ecf9e19619506cf93567",
+            "url": "https://github.com/rsipka/emailcipator/pull/338"
+          }
+        ]
+      },
+      {
+        "version": "0.1.2-349-g8b7e4cd",
+        "commit": "8b7e4cd1f519b44f473db95dbcdca05af48bdcad",
+        "published_at": "2026-11-07T17:44:13Z",
+        "changes": [
+          {
+            "title": "Guard Message-IDs and mask customer names on MCP",
+            "pr": 337,
+            "commit": "8b7e4cd1f519b44f473db95dbcdca05af48bdcad",
+            "url": "https://github.com/rsipka/emailcipator/pull/337"
+          }
+        ]
+      },
+      {
+        "version": "0.1.2-346-g4b13434",
+        "commit": "4b13434829ffdd9defc0f01055fd9a50e41ebf19",
+        "published_at": "2026-11-07T15:15:55Z",
+        "changes": [
+          {
+            "title": "Log the version when the server starts",
+            "pr": 335,
+            "commit": "4b13434829ffdd9defc0f01055fd9a50e41ebf19",
+            "url": "https://github.com/rsipka/emailcipator/pull/335"
+          },
+          {
+            "title": "ADR 0107: summaries through an LLM endpoint setting",
+            "pr": 336,
+            "commit": "e05ccbda10ff4db8d2b5c71e875fce7b2fa9e8cb",
+            "url": "https://github.com/rsipka/emailcipator/pull/336"
+          },
+          {
+            "title": "Record two open questions about the masked view",
+            "pr": 334,
+            "commit": "fa84304c5cfd63b54549122c6e292c882a4be035",
+            "url": "https://github.com/rsipka/emailcipator/pull/334"
+          }
+        ]
+      },
+      {
+        "version": "0.1.2-338-g1eb6661",
+        "commit": "1eb6661f0cc8789d3246e7faf970abbe6951bc0f",
+        "published_at": "2026-11-07T14:37:00Z",
+        "changes": [
+          {
+            "title": "Fix masked VERP addresses and silently unfiltered stats",
+            "pr": 333,
+            "commit": "1eb6661f0cc8789d3246e7faf970abbe6951bc0f",
+            "url": "https://github.com/rsipka/emailcipator/pull/333"
+          },
+          {
+            "title": "Replay pattern pack drafts against journal fixtures",
+            "pr": 332,
+            "commit": "83b8aa4b08ee00f4f86862a14f432fea9c9a2c8f",
+            "url": "https://github.com/rsipka/emailcipator/pull/332"
+          }
+        ]
+      }
+    ],
+    "stable": [
+      {
+        "version": "0.2.0",
+        "commit": "773164bd458ad4f58182366459209624bf3ac4aa",
+        "published_at": "2026-11-09T10:35:31Z",
+        "changes": [
+          {
+            "title": "CHANGELOG: 0.2.0",
+            "pr": 375,
+            "commit": "773164bd458ad4f58182366459209624bf3ac4aa",
+            "url": "https://github.com/rsipka/emailcipator/pull/375"
+          }
+        ]
+      }
+    ]
+  }
+}

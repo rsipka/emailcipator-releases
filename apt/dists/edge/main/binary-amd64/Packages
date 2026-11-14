@@ -1,0 +1,63 @@
+Package: emailcipator-agent
+Architecture: amd64
+Version: 0.2.0+54.g84bec96
+Priority: optional
+Section: mail
+Maintainer: Emailcipator <noreply@example.net>
+Installed-Size: 9564
+Depends: systemd, adduser
+Recommends: postfix
+Filename: pool/edge/emailcipator-agent_0.2.0.54.g84bec96_amd64.deb
+Size: 3152536
+MD5sum: be4b7fd9f497ce3f6d795e4e7134b596
+SHA1: 8db3b670cd5fa5c24b1b7bfaa0647bc001762fab
+SHA256: e151b347b9e6fc3cc82d90cc399cf56f253ed78ed3239a26cd2084a6f0a9a535
+SHA512: a281d10704a1e86fe8fbe3eb39307b5f2a253c31575c4b86b8aab8584c63d736ed809178732decc5787a1b0751aa521611761d2978491132891d245c523a4538
+Homepage: https://github.com/rsipka/emailcipator
+Description: Emailcipator agent — mail log shipping over mutual TLS
+ Reads the Postfix, Dovecot and Rspamd units' journal on a mail host, parses the
+ lines into events and ships them to an Emailcipator server. Read-only: never in
+ the mail path. Outbound connections only.
+
+Package: emailcipator-agent
+Architecture: amd64
+Version: 0.2.0+57.gd55b2b0
+Priority: optional
+Section: mail
+Maintainer: Emailcipator <noreply@example.net>
+Installed-Size: 9564
+Depends: systemd, adduser
+Recommends: postfix
+Filename: pool/edge/emailcipator-agent_0.2.0.57.gd55b2b0_amd64.deb
+Size: 3152988
+MD5sum: abdaf2d35373cab8d40fb620d6c53ac4
+SHA1: 9cc34946a6bcc842a9b36a83c8348d5d50282e7c
+SHA256: 3b7d6d9ecc407984049a3300d0f31f487cda3b667ed24c8c058141761a5b9131
+SHA512: 20ae09ddf5e88a65f04c7f3af44332975c3ad7833d3a516aa2e84313197dd9bc801acb6d9be96e802b08400784a9308897662b7f503c27ba7284b2e20a1e0af6
+Homepage: https://github.com/rsipka/emailcipator
+Description: Emailcipator agent — mail log shipping over mutual TLS
+ Reads the Postfix, Dovecot and Rspamd units' journal on a mail host, parses the
+ lines into events and ships them to an Emailcipator server. Read-only: never in
+ the mail path. Outbound connections only.
+
+Package: emailcipator-agent
+Architecture: amd64
+Version: 0.2.0+59.g43dc375
+Priority: optional
+Section: mail
+Maintainer: Emailcipator <noreply@example.net>
+Installed-Size: 9564
+Depends: systemd, adduser
+Recommends: postfix
+Filename: pool/edge/emailcipator-agent_0.2.0.59.g43dc375_amd64.deb
+Size: 3152696
+MD5sum: 8db155d6d9329808c728423d684b62c9
+SHA1: 105ba2f7b31fd71453f49bd7992c75209fbe4504
+SHA256: 357afc3528aaf4950ef85714acd3026a0288bea4060884fe0552ce37776afa8d
+SHA512: 0dff91a6b285e82ebd16bde8a36f98079c6d8a1fe188c262af2358b6777750fd0d9abed28c5a506518af6990043e7b31087be1aa955a05351b12968558be7216
+Homepage: https://github.com/rsipka/emailcipator
+Description: Emailcipator agent — mail log shipping over mutual TLS
+ Reads the Postfix, Dovecot and Rspamd units' journal on a mail host, parses the
+ lines into events and ships them to an Emailcipator server. Read-only: never in
+ the mail path. Outbound connections only.
+

@@ -1,0 +1,28 @@
+Architectures: amd64 arm64
+Codename: stable
+Components: main
+Date: Mon, 09 Nov 2026 10:35:30 +0000
+Description: Emailcipator agent (stable)
+Label: Emailcipator
+Origin: Emailcipator
+Suite: stable
+MD5Sum:
+ 529bbe842d9d8ed16fae84994c641723             2712 main/binary-amd64/Packages
+ 9fac031a8d0f6d6b3837ffd4784f33a0             1013 main/binary-amd64/Packages.gz
+ d6df524f6b96b625a10db9846e9ce83a             2712 main/binary-arm64/Packages
+ de836d111c195c1f7b4f1926e9135dbb             1013 main/binary-arm64/Packages.gz
+SHA1:
+ 85b0ab84ba8c1fe82024d4370a76946703271be8             2712 main/binary-amd64/Packages
+ 80aa6c6a570dbd6cabee9d4c60b62ce354b10813             1013 main/binary-amd64/Packages.gz
+ b6563c43e181c6d706be78ca3d73bba5107c0500             2712 main/binary-arm64/Packages
+ c543b5b0cfa57958f343a6f8cc06e9acbe1b6e61             1013 main/binary-arm64/Packages.gz
+SHA256:
+ 2f370b4ce842f53440870374d878ace1b04da0373b8fbec0544ca58832aa7823             2712 main/binary-amd64/Packages
+ f113e43e5263e5b3e04b98dc702ffad609e802d89b1889e9b6f95f67fe592b76             1013 main/binary-amd64/Packages.gz
+ 6d2ac671fae6129b6ad77be1d7858fe64d0b2049723cdef2bd0875c0b01eaf98             2712 main/binary-arm64/Packages
+ 0a165b36b8d91f40f7545f03ecce14838804cd14dab6436265ae3c2cfb1fc9df             1013 main/binary-arm64/Packages.gz
+SHA512:
+ de3bd5dd18fa5760f19f503ee24397c10dc00ebfc1e9483340f80697e08e690eb466d02d4e267a5536026b6b3f0f9f2188e0ccc14232201f13ec568abc5adf31             2712 main/binary-amd64/Packages
+ 46484b0e6333a46098f266e0ba616774966d4fc920a8e3d45206f9eb4ce1804ff4bfbb25f478bda8f8589cef202c8a092fadb96f05d20023ab98719116ea6701             1013 main/binary-amd64/Packages.gz
+ a967acfbe849f0e653a1d517f5f6f383da2b7e01e37f6f27174363dafc373cf64ec326295b38bb22f92ee08fcfc2f8897d72a754c5fd8ee28917d0393c74f4ea             2712 main/binary-arm64/Packages
+ 71acbd01e12217e31905fa92d30efdffd83b14d9b3d060f83d812a44d37b12e373679e96cd0019850b7372c206a7fa82ecd1c13a4e8fddfeeb654cae867f3298             1013 main/binary-arm64/Packages.gz
