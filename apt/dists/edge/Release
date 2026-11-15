@@ -1,0 +1,28 @@
+Architectures: amd64 arm64
+Codename: edge
+Components: main
+Date: Sun, 15 Nov 2026 20:22:58 +0000
+Description: Emailcipator agent (edge)
+Label: Emailcipator
+Origin: Emailcipator
+Suite: edge
+MD5Sum:
+ 06aa7e6315289d22c359f111b7a3eced             2778 main/binary-amd64/Packages
+ 14eee42236a4f3172d3bde1387e6da46             1025 main/binary-amd64/Packages.gz
+ 19f4f132e6eb4ad6cc0f13a57593982f             2778 main/binary-arm64/Packages
+ 796df5f51965faeb3c7c237ebbb0a510             1025 main/binary-arm64/Packages.gz
+SHA1:
+ 42bfe695c264475138b8cc4072476e77dbb87a4d             2778 main/binary-amd64/Packages
+ 1d7ad99789bab6a9e4c40c94b3e354730f0a8959             1025 main/binary-amd64/Packages.gz
+ 570f60a3f93792d688dbbc51774330937555fbb1             2778 main/binary-arm64/Packages
+ 150c772b411e12bf3f874f9871c6ee6a3085e969             1025 main/binary-arm64/Packages.gz
+SHA256:
+ c55303ffed0faff77a94663838e389930e3196dff2234356c9194a95edc12aa8             2778 main/binary-amd64/Packages
+ d533cd1022df015b6967f3b55ccd438befc4f651db8f45f6dd5a73cabd9d20d2             1025 main/binary-amd64/Packages.gz
+ 98f92622d65706733057b455cc06c952ac5c0ce3a39a5d29118b3d697c7af18a             2778 main/binary-arm64/Packages
+ f19ea636f4f40e31ced43422fb516fa453ba63ea31d564451192a1d0a3137c71             1025 main/binary-arm64/Packages.gz
+SHA512:
+ af48bc25cad94209627367971a21b5ab1b452b5fcc0fedfc81f90114108bebf899db220a3a649bfe07ea44d8b39c8dd8c0320bcc1fa9e24a9fb70c9123ef6eeb             2778 main/binary-amd64/Packages
+ 74e56ec77ebdf4f1b005bfaefba5cb164b65d82e6f952f880486fb2d6df7d02be6e618f3e0ff8d0a6e2d494df5c0b1cac3bd3d179189eeccb5b02c9975aad68d             1025 main/binary-amd64/Packages.gz
+ 9d378fc806452d1a37c84978d13c0c252762c495b8ae562a57bc4c302417ff5c458383061937674ed098dfe3b2fcfb2c2a14abbcfa8115aa4427b12523815cb7             2778 main/binary-arm64/Packages
+ 9cc74893757ca2045faece7ad6069077a48c6ac640a2f0f3f61e59510e1d698a8102a13cbbfeeca961380803a003189485f2b04a3c3a6cecd14998fd2af86e7b             1025 main/binary-arm64/Packages.gz
